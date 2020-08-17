@@ -1,0 +1,45 @@
+body {
+  font-size: 30px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: pink;
+  border-radius: 0;
+  border: 0;
+}
+/* END HEADER */
+* {
+  box-sizing: border-box;
+   }
+
+ h1 {
+  margin-bottom: 30px;
+  text-align: center;
+ }
+
+p {
+  padding: 20px 5px 5px 5px;
+  margin: 10px;
+  position: relative;
+
+} 
+
+.section { 
+    background-color: gray;
+    border: 2px solid black;
+    position: relative;
+    margin: 20px;
+    text-align: center;
+ }
+
+nav>li{
+  background-color: green;
+}
+
+
+ /* Simple Responsive Framework. */
+ .row {
+  width: 100%;
+  }
