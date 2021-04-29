@@ -31,7 +31,7 @@ WARNING!!! WARNING!!!
 
 // STEP 1:
 // Wrap the entire contents of script.js inside of an IIFE
-(function (window) {
+(function () {
 
   var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
@@ -45,6 +45,8 @@ for (var i in names) {
     helloSpeaker.speak(names[i])
   }
 }
+
+/* */
 } )();
 
   
